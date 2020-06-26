@@ -16,7 +16,7 @@
     <meta name="description" content="A Site to display all Projects done by N.S.S.KOUSHIK" />
     <meta name="amp-script-src" content="https://github.com/nssk1999/nssk1999.github.io" />
 
-    <title>Home</title>
+    <title>nssk1999: Home</title>
 
     <link rel="canonical" href="https://nssk1999.github.io/" />
     <link rel="alternate" hreflang="en" href="https://nssklife.blogspot.com">
@@ -249,6 +249,10 @@
       .align-right .list-item {
         justify-content: flex-end;
       }
+      /* amp-social-share[type='sms'] {
+        background: blue;
+        background-image: url(datauri:assets/images/sms.svg);
+      } */
       @media (max-width: 767px) {
         .align-left,
         .align-center,
@@ -2257,7 +2261,7 @@
         color: #ffffff;
       }
       .cid-s30rduoPWm {
-        background-image: url("assets/images/background3.jpg");
+        background-image: url("assets/images/bg.gif");
       }
       .cid-s30rUgFV2i .mbr-text,
       .cid-s30rUgFV2i .mbr-section-btn {
@@ -2409,12 +2413,12 @@
           </li>
         </ul>
         <!-- NAVBAR ITEMS END -->
-        <!-- SHOW BUTTON -->
-        <div class="navbar-buttons mbr-section-btn">
+        <!-- SHOW BUTTON Todo -->
+        <!-- <div class="navbar-buttons mbr-section-btn">
           <a class="btn btn-md btn-black mbr-bold display-7" href="#"
             >Subscribe</a
           >
-        </div>
+        </div> -->
         <!-- SHOW BUTTON END -->
       </div>
     </amp-sidebar>
@@ -2467,7 +2471,7 @@
         </h3>
 
         <div class="mbr-section-btn align-right">
-          <a class="btn btn-md btn-primary display-4" href="#bottom">
+          <a class="btn btn-md btn-primary display-4" href="#features2-2">
             LEARN MORE
           </a>
         </div>
@@ -2641,6 +2645,7 @@
     </section>
 
     <section class="social-follow cid-s31ktiWCfD" id="social-follow-5">
+      
       <div class="wrapper align-center">
         <h1
           class="mbr-fonts-style align-center mbr-light mbr-pt-1 mbr-pb-4 display-2"
@@ -2754,15 +2759,38 @@
         <h1 class="mbr-fonts-style align-center mbr-py-1 display-2">
           Share this page
         </h1>
-        <amp-social-share type="email"></amp-social-share>
+        <amp-social-share
+         type="email"
+         data-param-body="Hey check out site full of amazing projects by  TITLE - CANONICAL_URL"
+         ></amp-social-share>
         <amp-social-share
           type="facebook"
-          data-param-app_id="254325784911610"
+          data-param-app_id="1363980040462476"
+          data-param-quote="Hey check out site full of amazing projects by @Nss Koushik​"
         ></amp-social-share>
-        <!-- <amp-social-share type="gplus"></amp-social-share> -->
+        <!-- "254325784911610" -->
+        <amp-social-share 
+          type="whatsapp" 
+          data-param-text="Hey check out site full of amazing projects by  TITLE - CANONICAL_URL"
+          ></amp-social-share>
         <amp-social-share type="linkedin"></amp-social-share>
 
-        <amp-social-share type="twitter"></amp-social-share>
+        <amp-social-share
+         type="twitter"
+         data-param-text="Hey check out site full of amazing projects by @nssk1999"
+         ></amp-social-share>
+         <amp-social-share
+          type="sms"
+          width="60"
+         height="45"
+          data-param-text="Hey check out site full of amazing projects by  TITLE - CANONICAL_URL"
+           ></amp-social-share>
+        <amp-social-share
+         type="system"
+         width="44"
+         height="44"
+         data-param-text="Hey check out site full of amazing projects by  TITLE - CANONICAL_URL"
+          ></amp-social-share> 
       </div>
     </section>
 
