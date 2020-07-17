@@ -1,0 +1,44 @@
+{
+  "bookendVersion": "v1.0",
+  "shareProviders": [
+    "whatsapp",
+    "twitter",
+    "linkedin",
+    "system"
+  ],
+  "components": [
+    {
+      "type": "heading",
+      "text": "More to read"
+    },
+    {
+      "type": "small",
+      "title": "Check-out my Std. Resume",
+      "url": "http://nssk1999.github.io/assets/Profile.pdf",
+      "image": "assets/cv.svg"
+    },
+    {
+      "type": "landscape",
+      "title": "Know more about my projects",
+      "url": "http://nssk1999.github.io/index.html",
+      "image": "assets/projects.jpg",
+      "category": "projects"
+    },
+    {
+      "type": "portrait",
+      "title": "Know more about my Designs",
+      "url": "http://nssk1999.github.io/design.html",
+      "image": "assets/designs.png",
+      "category": "designs"
+    },
+    {
+      "type": "cta-link",
+      "links": [
+        {
+          "text": "Learn more",
+          "url": "http://nssk1999.github.io/about.html"
+        }
+      ]
+    }
+  ]
+}
