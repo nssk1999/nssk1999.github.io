@@ -11,3 +11,4 @@
 - [ ] use amp-anim instead of amp-video in amp-stories to increase response speeds :wink:
 - [ ] complete the [designs page](https://nssk1999.github.io/design.html) which is under devlopment :smiling_face_with_three_hearts:
 - [ ] find a Solution to make background images load faster using amp. :monocle_face:
+- [ ] Add Google analytics using [Google Tag Manager](https://marketingplatform.google.com/about/tag-manager/) :upside_down_face:
