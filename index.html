@@ -2353,6 +2353,11 @@
       custom-element="amp-animation"
       src="https://cdn.ampproject.org/v0/amp-animation-0.1.js"
     ></script>
+    <script
+      async
+      custom-element="amp-fx-collection"
+      src="https://cdn.ampproject.org/v0/amp-fx-collection-0.1.js"
+    ></script>
     <!-- AMP Analytics -->
     <script
       async
@@ -2516,18 +2521,20 @@
     </section>
 
     <section class="header1 cid-s30rduoPWm mbr-fullscreen" id="header1-1">
-      <div class="container">
+      <div amp-fx="parallax" data-parallax-factor="0.4" class="container">
         <h1
+          amp-fx="fly-in-right"
           class="mbr-section-title mbr-fonts-style align-right mbr-bold mbr-white mbr-pt-1 mbr-pb-3 display-1"
         >
           <strong>N.S.S.KOUSHIK</strong>
         </h1>
         <h3
+          amp-fx="fly-in-left"
           class="mbr-section-subtitle mbr-fonts-style align-right mbr-white mbr-light mbr-pt-1 mbr-pb-3 display-2"
         >
           eat. sleep. code. repeat.
         </h3>
-        <div class="mbr-section-btn align-right">
+        <div amp-fx="fade-in" class="mbr-section-btn align-right">
           <a
             class="btn btn-md btn-primary display-4"
             href="stories/nssk1999.html"
@@ -2538,7 +2545,12 @@
       </div>
     </section>
 
-    <section class="features2 mbr-section cid-s30rUgFV2i" id="features2-2">
+    <section
+      amp-fx="fade-in"
+      data-duration="1000ms"
+      class="features2 mbr-section cid-s30rUgFV2i"
+      id="features2-2"
+    >
       <div class="container">
         <div class="mbr-row mbr-jc-c">
           <div class="card mbr-col-sm-12 mbr-col-md-6 mbr-col-lg-3 md-pb">
@@ -2707,9 +2719,11 @@
         </h1>
         <div class="icons-list">
           <a href="http://www.youtube.com/nsskoushik" target="_blank">
-            <span class="iconfont-wrapper mbr-p-2">
+            <span amp-fx="fly-in-left" class="iconfont-wrapper mbr-p-2">
               <span class="amp-iconfont fa-youtube fa"
                 ><svg
+                  amp-fx="fly-in-right"
+                  data-duration="1000ms"
                   width="48"
                   height="48"
                   viewBox="0 0 1792 1792"
@@ -2723,9 +2737,11 @@
               </span>
             </span> </a
           ><a href="https://www.facebook.com/nsssssk" target="_blank">
-            <span class="iconfont-wrapper mbr-p-2">
+            <span amp-fx="fly-in-left" class="iconfont-wrapper mbr-p-2">
               <span class="amp-iconfont fa-facebook-square fa"
                 ><svg
+                  amp-fx="fly-in-right"
+                  data-duration="1000ms"
                   width="48"
                   height="48"
                   viewBox="0 0 1792 1792"
@@ -2739,9 +2755,11 @@
               </span>
             </span> </a
           ><a href="https://www.linkedin.com/in/nssk1999" target="_blank">
-            <span class="iconfont-wrapper mbr-p-2">
+            <span amp-fx="fly-in-left" class="iconfont-wrapper mbr-p-2">
               <span class="amp-iconfont fa-linkedin-square fa"
                 ><svg
+                  amp-fx="fly-in-right"
+                  data-duration="1000ms"
                   width="48"
                   height="48"
                   viewBox="0 0 1792 1792"
@@ -2755,9 +2773,11 @@
               </span>
             </span> </a
           ><a href="https://github.com/nssk1999/" target="_blank">
-            <span class="iconfont-wrapper mbr-p-2">
+            <span amp-fx="fly-in-right" class="iconfont-wrapper mbr-p-2">
               <span class="amp-iconfont fa-github fa"
                 ><svg
+                  amp-fx="fly-in-right"
+                  data-duration="1000ms"
                   width="48"
                   height="48"
                   viewBox="0 0 1792 1792"
@@ -2771,9 +2791,11 @@
               </span>
             </span> </a
           ><a href="https://instagram.com/nssk1999" target="_blank">
-            <span class="iconfont-wrapper mbr-p-2">
+            <span amp-fx="fly-in-right" class="iconfont-wrapper mbr-p-2">
               <span class="amp-iconfont fa-instagram fa"
                 ><svg
+                  amp-fx="fly-in-right"
+                  data-duration="1000ms"
                   width="48"
                   height="48"
                   viewBox="0 0 1792 1792"
@@ -2787,9 +2809,11 @@
               </span>
             </span> </a
           ><a href="https://twitter.com/nssk1999" target="_blank">
-            <span class="iconfont-wrapper mbr-p-2">
+            <span amp-fx="fly-in-right" class="iconfont-wrapper mbr-p-2">
               <span class="amp-iconfont fa-twitter fa"
                 ><svg
+                  amp-fx="fly-in-right"
+                  data-duration="1000ms"
                   width="48"
                   height="48"
                   viewBox="0 0 1792 1792"
@@ -2807,7 +2831,11 @@
       </div>
     </section>
 
-    <section class="social-share cid-s31ktIvLcs" id="social-share-6">
+    <section
+      amp-fx="fly-in-bottom"
+      class="social-share cid-s31ktIvLcs"
+      id="social-share-6"
+    >
       <div class="wrapper align-center">
         <h1 class="mbr-fonts-style align-center mbr-py-1 display-2">
           Share this page
