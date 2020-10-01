@@ -23,6 +23,8 @@
 
 ### Blogs posts
 <!-- BLOG-POST-LIST:START -->
+- [How to send e-mail using Forwarding e-mail address](https://medium.com/@nssk1999/how-to-send-e-mail-using-forwarding-e-mail-address-2463c0ca5582?source=rss-fd0f4a01d67c------2)
+- [The Device Concept-2](https://medium.com/@nssk1999/the-device-concept-2-6291e5191802?source=rss-fd0f4a01d67c------2)
 <!-- BLOG-POST-LIST:END -->
 
 <p align="left">
